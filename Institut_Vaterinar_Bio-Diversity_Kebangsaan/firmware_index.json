@@ -1,0 +1,341 @@
+{
+  "target_version": "v0.0.56",
+  "firmwares": [
+    {
+      "version": "v0.0.1",
+      "filename": "firmware_v0.0.1.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.1.bin",
+      "md5": "3bc50463c6b59b8df21983f48e2b6d9c"
+    },
+    {
+      "version": "v0.0.2",
+      "filename": "firmware_v0.0.2.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.2.bin",
+      "md5": "59bef3d6286d501e2ee00ef87473fd1a"
+    },
+    {
+      "version": "v0.0.3",
+      "filename": "firmware_v0.0.3.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.3.bin",
+      "md5": "17b6758b1da90b35a4b6439a0d28fd78"
+    },
+    {
+      "version": "v0.0.4",
+      "filename": "firmware_v0.0.4.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.4.bin",
+      "md5": "58dd0d0f332524280362abe358d2daaa"
+    },
+    {
+      "version": "v0.0.5",
+      "filename": "firmware_v0.0.5.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.5.bin",
+      "md5": "7d72c3cb7a041003c750438a156a76c9"
+    },
+    {
+      "version": "v0.0.6",
+      "filename": "firmware_v0.0.6.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.6.bin",
+      "md5": "486f0c200998010840e32aeb5937daa9"
+    },
+    {
+      "version": "v0.0.7",
+      "filename": "firmware_v0.0.7.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.7.bin",
+      "md5": "7c36681b7938b5bb2984389a91147700"
+    },
+    {
+      "version": "v0.0.8",
+      "filename": "firmware_v0.0.8.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.8.bin",
+      "md5": "063dc32cd506b0eea07eac8db81f66a0"
+    },
+    {
+      "version": "v0.0.9",
+      "filename": "firmware_v0.0.9.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.9.bin",
+      "md5": "657f6d79c1aa2d2d0fb5769fa8d7dadf"
+    },
+    {
+      "version": "v0.0.10",
+      "filename": "firmware_v0.0.10.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.10.bin",
+      "md5": "2ec466daebe93469cb644052f515dfe7"
+    },
+    {
+      "version": "v0.0.11",
+      "filename": "firmware_v0.0.11.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.11.bin",
+      "md5": "4b6f5baba2b31adf9bf0440afc515fc3"
+    },
+    {
+      "version": "v0.0.12",
+      "filename": "firmware_v0.0.12.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.12.bin",
+      "md5": "87ddff5bf31e4e41f810c7232a79b0c8"
+    },
+    {
+      "version": "v0.0.13",
+      "filename": "firmware_v0.0.13.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.13.bin",
+      "md5": "cf05ec5c76e1bb40ad4d8380543a5305"
+    },
+    {
+      "version": "v0.0.14",
+      "filename": "firmware_v0.0.14.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.14.bin",
+      "md5": "b43b02eb02460e76ac7aeb1b276dbeb7"
+    },
+    {
+      "version": "v0.0.15",
+      "filename": "firmware_v0.0.15.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.15.bin",
+      "md5": "e97914ed038a4541d4f2cc539e04159e"
+    },
+    {
+      "version": "v0.0.16",
+      "filename": "firmware_v0.0.16.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.16.bin",
+      "md5": "90dcb4442f59518f131067c39d253516"
+    },
+    {
+      "version": "v0.0.17",
+      "filename": "firmware_v0.0.17.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.17.bin",
+      "md5": "c902f5a66e1a7d69ff0ca6b5867786b6"
+    },
+    {
+      "version": "v0.0.18",
+      "filename": "firmware_v0.0.18.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.18.bin",
+      "md5": "91f08107cefa38afc00356c40ad1df2e"
+    },
+    {
+      "version": "v0.0.19",
+      "filename": "firmware_v0.0.19.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.19.bin",
+      "md5": "331b9d80bfa73614323e2d572a54e25d"
+    },
+    {
+      "version": "v0.0.20",
+      "filename": "firmware_v0.0.20.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.20.bin",
+      "md5": "5567d1d713d28bbb47aebb9a648dae3f"
+    },
+    {
+      "version": "v0.0.21",
+      "filename": "firmware_v0.0.21.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.21.bin",
+      "md5": "ce28782d296d310a855f81fe4e824bab"
+    },
+    {
+      "version": "v0.0.22",
+      "filename": "firmware_v0.0.22.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.22.bin",
+      "md5": "73248cc7dceec6dad5b44777c1ba0b63"
+    },
+    {
+      "version": "v0.0.23",
+      "filename": "firmware_v0.0.23.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.23.bin",
+      "md5": "b47293296b3a65e0c68fc4ae89cf186c"
+    },
+    {
+      "version": "v0.0.24",
+      "filename": "firmware_v0.0.24.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.24.bin",
+      "md5": "0dc93290d44f5674167353bf7cc22e38"
+    },
+    {
+      "version": "v0.0.25",
+      "filename": "firmware_v0.0.25.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.25.bin",
+      "md5": "219272a3df5dd7a1af660e716458a6d6"
+    },
+    {
+      "version": "v0.0.26",
+      "filename": "firmware_v0.0.26.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.26.bin",
+      "md5": "7d78e56c808c95cf2c2ebe0e66de0d12"
+    },
+    {
+      "version": "v0.0.27",
+      "filename": "firmware_v0.0.27.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.27.bin",
+      "md5": "d2ea44e4a0d86a6d41a93ed6147195c8"
+    },
+    {
+      "version": "v0.0.28",
+      "filename": "firmware_v0.0.28.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.28.bin",
+      "md5": "c981eb76855cae3755293a15ed3f17ae"
+    },
+    {
+      "version": "v0.0.29",
+      "filename": "firmware_v0.0.29.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.29.bin",
+      "md5": "b8c2ca7c3122402056842d7a288f8353"
+    },
+    {
+      "version": "v0.0.30",
+      "filename": "firmware_v0.0.30.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.30.bin",
+      "md5": "a95ec31fbaaa4dc6b61ca2aedd0d598a"
+    },
+    {
+      "version": "v0.0.31",
+      "filename": "firmware_v0.0.31.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.31.bin",
+      "md5": "14178b57d6dc13d3ef1576b987e3d7f4"
+    },
+    {
+      "version": "v0.0.32",
+      "filename": "firmware_v0.0.32.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.32.bin",
+      "md5": "f68e2d82bbaee0b4962584050b2e513f"
+    },
+    {
+      "version": "v0.0.33",
+      "filename": "firmware_v0.0.33.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.33.bin",
+      "md5": "2a79ee171f88ba3dd55c5aa6e4cb9883"
+    },
+    {
+      "version": "v0.0.34",
+      "filename": "firmware_v0.0.34.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.34.bin",
+      "md5": "5464732e109053536e927c98a6a9ce85"
+    },
+    {
+      "version": "v0.0.35",
+      "filename": "firmware_v0.0.35.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.35.bin",
+      "md5": "6361b5cc919b9a5326337184e8d01863"
+    },
+    {
+      "version": "v0.0.36",
+      "filename": "firmware_v0.0.36.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.36.bin",
+      "md5": "59fbdf73671c4e61d2948541e7b0603e"
+    },
+    {
+      "version": "v0.0.37",
+      "filename": "firmware_v0.0.37.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.37.bin",
+      "md5": "9f6ff52edc7c7dc7316d88c6afa24d35"
+    },
+    {
+      "version": "v0.0.38",
+      "filename": "firmware_v0.0.38.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.38.bin",
+      "md5": "11b231f8c6e2ece1d98f5d9bb9068652"
+    },
+    {
+      "version": "v0.0.39",
+      "filename": "firmware_v0.0.39.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.39.bin",
+      "md5": "187b6893dbc6d04c725062f542108c9d"
+    },
+    {
+      "version": "v0.0.40",
+      "filename": "firmware_v0.0.40.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.40.bin",
+      "md5": "80447a92887f5b5b6a83416ab31b75d4"
+    },
+    {
+      "version": "v0.0.41",
+      "filename": "firmware_v0.0.41.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.41.bin",
+      "md5": "be3f67ae584ef00587cb68fabed33b14"
+    },
+    {
+      "version": "v0.0.42",
+      "filename": "firmware_v0.0.42.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.42.bin",
+      "md5": "9273c96772aa806f0797ec11c1047029"
+    },
+    {
+      "version": "v0.0.43",
+      "filename": "firmware_v0.0.43.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.43.bin",
+      "md5": "9dfcd7191c1176ab5f26b3346108df93"
+    },
+    {
+      "version": "v0.0.44",
+      "filename": "firmware_v0.0.44.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.44.bin",
+      "md5": "e510d442c2279e5b779ce686f544884f"
+    },
+    {
+      "version": "v0.0.45",
+      "filename": "firmware_v0.0.45.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.45.bin",
+      "md5": "1923338abf2bde24bfe043923f6f830e"
+    },
+    {
+      "version": "v0.0.46",
+      "filename": "firmware_v0.0.46.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.46.bin",
+      "md5": "67b64fa00895211a91b1db3230cc392f"
+    },
+    {
+      "version": "v0.0.47",
+      "filename": "firmware_v0.0.47.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.47.bin",
+      "md5": "fde3b49fbb1c0c8548f3322f7ccf42c0"
+    },
+    {
+      "version": "v0.0.48",
+      "filename": "firmware_v0.0.48.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.48.bin",
+      "md5": "3e1a74b0cee850e1ed8b6ac01eabb0b4"
+    },
+    {
+      "version": "v0.0.49",
+      "filename": "firmware_v0.0.49.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.49.bin",
+      "md5": "55505ff89c01cd553f8fcbc6e7d3f39b"
+    },
+    {
+      "version": "v0.0.50",
+      "filename": "firmware_v0.0.50.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.50.bin",
+      "md5": "86e664383b203121fd5737a233c7ec0f"
+    },
+    {
+      "version": "v0.0.51",
+      "filename": "firmware_v0.0.51.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.51.bin",
+      "md5": "dd18193c3ad5c1032104e8aa9bc6ae80"
+    },
+    {
+      "version": "v0.0.52",
+      "filename": "firmware_v0.0.52.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.52.bin",
+      "md5": "d6ad3e1852cacacfd3321aff4f1697f7"
+    },
+    {
+      "version": "v0.0.53",
+      "filename": "firmware_v0.0.53.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.53.bin",
+      "md5": "ef5c15dd1cf18ff12ae549b457da2851"
+    },
+    {
+      "version": "v0.0.54",
+      "filename": "firmware_v0.0.54.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.54.bin",
+      "md5": "3690df89a7d24f34b828b73caa9451d8"
+    },
+    {
+      "version": "v0.0.55",
+      "filename": "firmware_v0.0.55.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.55.bin",
+      "md5": "bb31adf6d2bcc0084539e8cb991ea607"
+    },
+    {
+      "version": "v0.0.56",
+      "filename": "firmware_v0.0.56.bin",
+      "url": "https://raw.githubusercontent.com/msufi25/esp32-ota-test/main/firmware_v0.0.56.bin",
+      "md5": "577056d33487423a018bdefd2d6adce1"
+    }
+  ]
+}
