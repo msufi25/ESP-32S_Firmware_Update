@@ -1,0 +1,41 @@
+{
+  "target_version": "v0.0.6",
+  "firmwares": [
+    {
+      "version": "v0.0.1",
+      "filename": "firmware_v0.0.1.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/firmware_v0.0.1.bin",
+      "md5": "7f2020d54bf0a57f51b7aaa0961f9a45"
+    },
+    {
+      "version": "v0.0.2",
+      "filename": "firmware_v0.0.2.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/firmware_v0.0.2.bin",
+      "md5": "3a1871eef45b3d39df0b0cca0da65c65"
+    },
+    {
+      "version": "v0.0.3",
+      "filename": "firmware_v0.0.3.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/firmware_v0.0.3.bin",
+      "md5": "5f5528977a6a1ff0633bcacd02184e64"
+    },
+    {
+      "version": "v0.0.4",
+      "filename": "firmware_v0.0.4.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/firmware_v0.0.4.bin",
+      "md5": "510d39eb28c6b0f94f96d38db8b40197"
+    },
+    {
+      "version": "v0.0.5",
+      "filename": "firmware_v0.0.5.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/firmware_v0.0.5.bin",
+      "md5": "3660231286cdda0a670e6519db8aaf03"
+    },
+    {
+      "version": "v0.0.6",
+      "filename": "firmware_v0.0.6.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/firmware_v0.0.6.bin",
+      "md5": "ac5819b4a02ba0258401faaad4f1f0c2"
+    }
+  ]
+}
