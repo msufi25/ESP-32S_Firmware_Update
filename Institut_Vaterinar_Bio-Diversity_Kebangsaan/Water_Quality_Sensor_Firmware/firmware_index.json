@@ -1,0 +1,29 @@
+{
+  "target_version": "v0.0.4",
+  "firmwares": [
+    {
+      "version": "v0.0.1",
+      "filename": "firmware_v0.0.1.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Quality_Sensor_Firmware/firmware_v0.0.1.bin",
+      "md5": "11904da9b71a88caaf97cb3bcd6e453a"
+    },
+    {
+      "version": "v0.0.2",
+      "filename": "firmware_v0.0.2.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Quality_Sensor_Firmware/firmware_v0.0.2.bin",
+      "md5": "eeb95089d5b4b553ec7d722d72990f67"
+    },
+    {
+      "version": "v0.0.3",
+      "filename": "firmware_v0.0.3.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Quality_Sensor_Firmware/firmware_v0.0.3.bin",
+      "md5": "ef24270cf28e20c78907b42fbcc5d150"
+    },
+    {
+      "version": "v0.0.4",
+      "filename": "firmware_v0.0.4.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Quality_Sensor_Firmware/firmware_v0.0.4.bin",
+      "md5": "f712137a37d6bf85b26bac4349cc811d"
+    }
+  ]
+}
