@@ -1,5 +1,5 @@
 {
-  "target_version": "v0.0.7",
+  "target_version": "v0.0.8",
   "firmwares": [
     {
       "version": "v0.0.1",
@@ -42,6 +42,12 @@
       "filename": "firmware_v0.0.7.bin",
       "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Quality_Sensor_Firmware/firmware_v0.0.7.bin",
       "md5": "da784e72da87304f9c2a44a76db2882c"
+    },
+    {
+      "version": "v0.0.8",
+      "filename": "firmware_v0.0.8.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Quality_Sensor_Firmware/firmware_v0.0.8.bin",
+      "md5": "92ea68547b84a0d80326fa4b06fa16f2"
     }
   ]
 }
