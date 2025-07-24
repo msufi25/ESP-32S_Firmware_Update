@@ -1,0 +1,11 @@
+{
+  "target_version": "v0.0.1",
+  "firmwares": [
+    {
+      "version": "v0.0.1",
+      "filename": "firmware_v0.0.1.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Air_Quality_Sensor_Firmware/firmware_v0.0.1.bin",
+      "md5": "b0315228a37cf41382d931071e330110"
+    }
+  ]
+}
