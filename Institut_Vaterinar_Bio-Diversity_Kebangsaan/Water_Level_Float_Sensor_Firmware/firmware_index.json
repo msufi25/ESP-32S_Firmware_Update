@@ -1,0 +1,47 @@
+{
+  "target_version": "v0.0.7",
+  "firmwares": [
+    {
+      "version": "v0.0.1",
+      "filename": "firmware_v0.0.1.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Level_Float_Sensor_Firmware/firmware_v0.0.1.bin",
+      "md5": "b594eefdc744460a723caa8d9bfe6352"
+    },
+    {
+      "version": "v0.0.2",
+      "filename": "firmware_v0.0.2.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Level_Float_Sensor_Firmware/firmware_v0.0.2.bin",
+      "md5": "d54a40d1cb8cd7e792b900e49ad7f48f"
+    },
+    {
+      "version": "v0.0.3",
+      "filename": "firmware_v0.0.3.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Level_Float_Sensor_Firmware/firmware_v0.0.3.bin",
+      "md5": "30cc6bb4eabe6d314ac8fef7d4cdd790"
+    },
+    {
+      "version": "v0.0.4",
+      "filename": "firmware_v0.0.4.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Level_Float_Sensor_Firmware/firmware_v0.0.4.bin",
+      "md5": "d55f9a7984dcc364be824c1749c7d8bb"
+    },
+    {
+      "version": "v0.0.5",
+      "filename": "firmware_v0.0.5.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Level_Float_Sensor_Firmware/firmware_v0.0.5.bin",
+      "md5": "afc3870e8ff3ca2b7086c5fa8bcb166a"
+    },
+    {
+      "version": "v0.0.6",
+      "filename": "firmware_v0.0.6.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Level_Float_Sensor_Firmware/firmware_v0.0.6.bin",
+      "md5": "28817bf5987c80a9d533da42b391549f"
+    },
+    {
+      "version": "v0.0.7",
+      "filename": "firmware_v0.0.7.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Level_Float_Sensor_Firmware/firmware_v0.0.7.bin",
+      "md5": "63a0b73d7734d6be93888df2601c8d1a"
+    }
+  ]
+}
