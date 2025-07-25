@@ -1,0 +1,23 @@
+{
+  "target_version": "v0.0.3",
+  "firmwares": [
+    {
+      "version": "v0.0.1",
+      "filename": "firmware_v0.0.1.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Air_Quality_Sensor_Firmware/firmware_v0.0.1.bin",
+      "md5": "b594eefdc744460a723caa8d9bfe6352"
+    },
+    {
+      "version": "v0.0.2",
+      "filename": "firmware_v0.0.2.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Air_Quality_Sensor_Firmware/firmware_v0.0.2.bin",
+      "md5": "d54a40d1cb8cd7e792b900e49ad7f48f"
+    },
+    {
+      "version": "v0.0.3",
+      "filename": "firmware_v0.0.3.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Air_Quality_Sensor_Firmware/firmware_v0.0.3.bin",
+      "md5": "30cc6bb4eabe6d314ac8fef7d4cdd790"
+    }
+  ]
+}
