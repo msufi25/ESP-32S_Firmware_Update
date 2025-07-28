@@ -1,0 +1,29 @@
+{
+  "target_version": "v0.0.4",
+  "firmwares": [
+    {
+      "version": "v0.0.1",
+      "filename": "firmware_v0.0.1.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Level_Sensor_Rain_Gauge_Firmware/firmware_v0.0.1.bin",
+      "md5": "63b6a02b95cafbf637828dc6e7fe6c7d"
+    },
+    {
+      "version": "v0.0.2",
+      "filename": "firmware_v0.0.2.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Level_Sensor_Rain_Gauge_Firmware/firmware_v0.0.2.bin",
+      "md5": "78e1114a9e2a792d135c2f33a458f039"
+    },
+    {
+      "version": "v0.0.3",
+      "filename": "firmware_v0.0.3.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Level_Sensor_Rain_Gauge_Firmware/firmware_v0.0.3.bin",
+      "md5": "60e516fcaee88d83184e7b4c0e75d3c5"
+    },
+    {
+      "version": "v0.0.4",
+      "filename": "firmware_v0.0.4.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Level_Sensor_Rain_Gauge_Firmware/firmware_v0.0.4.bin",
+      "md5": "0e3477bf39908db7c0796a105cc5e201"
+    }
+  ]
+}
