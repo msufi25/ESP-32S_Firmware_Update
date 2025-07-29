@@ -1,0 +1,17 @@
+{
+  "target_version": "v0.0.2",
+  "firmwares": [
+    {
+      "version": "v0.0.1",
+      "filename": "firmware_v0.0.1.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Air_Quality_Sensor_Firmware/Cow_Fert_02/firmware_v0.0.1.bin",
+      "md5": "562a8608301fdb2ba4989db0d3aaba70"
+    },
+    {
+      "version": "v0.0.2",
+      "filename": "firmware_v0.0.2.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Air_Quality_Sensor_Firmware/Cow_Fert_02/firmware_v0.0.2.bin",
+      "md5": "8357e883454932936fa0d9f1ea7f4983"
+    }
+  ]
+}
