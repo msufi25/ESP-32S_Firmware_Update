@@ -1,0 +1,33 @@
+{
+  "target_version": "v0.0.2",
+  "firmwares": [
+    {
+      "version": "v0.0.1",
+      "filename": "firmware_v0.0.1.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Air_Quality_Sensor_Firmware/Cow_Fert_02/firmware_v0.0.1.bin",
+      "md5": "fee41f5569bd060365590b92f6f545bc",
+      "build_time": "2025-07-31 16:10:03",
+      "changelog": [
+        "- Base Version & Version Number Starting Point.",
+        "- Disable Serial For Debugging Code.",
+        "- OTA & SPIFFS Formatting By Trigger Switches.",
+        "- Device Mac Address & ID.",
+        "- Float Water Level Sensor Feature.",
+        "- Changelog Feature For Firmware Update References & Scripting.",
+        "- Chunks Size For OTA Set to 64byte.",
+        "- LED Driver For Indicator Functions.",
+        "- Sent OTA Progress To Thingsboard Widget For Monitoring."
+      ]
+    },
+    {
+      "version": "v0.0.2",
+      "filename": "firmware_v0.0.2.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Air_Quality_Sensor_Firmware/Cow_Fert_02/firmware_v0.0.2.bin",
+      "md5": "9f94d15929090df19368814d490d7bc8",
+      "build_time": "2025-07-31 16:10:42",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    }
+  ]
+}
