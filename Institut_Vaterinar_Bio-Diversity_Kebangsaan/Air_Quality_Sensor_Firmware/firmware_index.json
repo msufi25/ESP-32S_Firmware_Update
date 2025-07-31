@@ -1,0 +1,32 @@
+{
+  "target_version": "v0.0.1",
+  "firmwares": [
+    {
+      "version": "v0.0.1",
+      "filename": "firmware_v0.0.1.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Air_Quality_Sensor_Firmware/firmware_v0.0.1.bin",
+      "md5": "64883a258ddc13e61a419742735d79a3",
+      "build_time": "2025-07-31 11:32:16",
+      "changelog": [
+        "- Default Version & Version Number Starting Point.",
+        "- Disable Serial For Debugging Code.",
+        "- OTA & SPIFFS Formatting By Trigger Switches.",
+        "- Device Mac Address & ID.",
+        "- Float Water Level Sensor Feature.",
+        "- Changelog Feature For Firmware Update References & Scripting.",
+        "- Chunks Size For OTA Set to 64byte.",
+        "- LED Driver For Indicator Functions."
+      ]
+    },
+    {
+      "version": "v0.0.2",
+      "filename": "firmware_v0.0.2.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Air_Quality_Sensor_Firmware/firmware_v0.0.2.bin",
+      "md5": "6c2496892a84a361ad5a544c2b4b8180",
+      "build_time": "2025-07-31 11:34:13",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    }
+  ]
+}
