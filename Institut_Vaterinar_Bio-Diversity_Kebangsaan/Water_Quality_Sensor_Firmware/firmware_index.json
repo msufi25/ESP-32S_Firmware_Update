@@ -1,0 +1,23 @@
+{
+  "target_version": "v0.0.1",
+  "firmwares": [
+    {
+      "version": "v0.0.1",
+      "filename": "firmware_v0.0.1.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Water_Quality_Sensor_Firmware/firmware_v0.0.1.bin",
+      "md5": "c8d2684f7fc61be05df97c5053d16d4c",
+      "build_time": "2025-08-06 11:29:40",
+      "changelog": [
+        "- Base Version & Version Number Starting Point.",
+        "- Disable Serial For Debugging Code.",
+        "- OTA & SPIFFS Formatting By Trigger Switches.",
+        "- Device Mac Address & ID.",
+        "- PH, ORP, EC, Temperature_Sensor.",
+        "- Changelog Feature For Firmware Update References & Scripting.",
+        "- Chunks Size For OTA Set to 64byte.",
+        "- LED Driver For Indicator Functions.",
+        "- Sent OTA Progress To Thingsboard Widget For Monitoring."
+      ]
+    }
+  ]
+}
