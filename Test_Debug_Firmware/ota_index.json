@@ -1,0 +1,9 @@
+{
+  "target_version": "1.0",
+  "firmwares": [
+    {
+      "version": "1.0",
+      "url": "https://raw.githubusercontent.com/msufi25/ESP-32S_Firmware_Update/main/Test_Debug_Firmware/firmware_v1.0.bin",
+    }
+  ]
+}
