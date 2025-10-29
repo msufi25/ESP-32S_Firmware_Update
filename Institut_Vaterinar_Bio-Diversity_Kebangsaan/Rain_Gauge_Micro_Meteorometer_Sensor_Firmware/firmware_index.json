@@ -1,0 +1,42 @@
+{
+  "target_version": "v0.0.2",
+  "firmwares": [
+    {
+      "version": "v0.0.1",
+      "filename": "firmware_v0.0.1.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Rain_Gauge_Micro_Meteorometer_Sensor_Firmware/firmware_v0.0.1.bin",
+      "md5": "62b892df8dd7c2887803d5a7461cedc5",
+      "build_time": "2025-10-29 10:10:04",
+      "changelog": [
+        "## Added",
+        "- Base version with initial version number.",
+        "- Device MAC address & ID display.",
+        "- OTA update via trigger switches.",
+        "- SPIFFS formatting via trigger switches.",
+        "- LED driver for indicator functions.",
+        "- Changelog feature for firmware update references & scripting.",
+        "- OTA progress reporting to ThingsBoard widget for monitoring.",
+        "## Changed",
+        "- OTA chunk size set to 64 bytes.",
+        "## Removed",
+        "- Serial debugging output disabled for production build."
+      ]
+    },
+    {
+      "version": "v0.0.2",
+      "filename": "firmware_v0.0.2.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Institut_Vaterinar_Bio-Diversity_Kebangsaan/Rain_Gauge_Micro_Meteorometer_Sensor_Firmware/firmware_v0.0.2.bin",
+      "md5": "b4614fe263486ed97ab899e4775a6f05",
+      "build_time": "2025-10-29 10:22:02",
+      "changelog": [
+        "## Added",
+        "- Lookup table array for structured data access.",
+        "## Changed",
+        "- \"DEBUG_PRINTF\" macro now will have \"static char msg[64]\" for centralised debug buffer.",
+        "- Standardised debug output handling, removed local buffer in all functions.",
+        "## Removed",
+        "- Redundant function prototypes from \"main.c\"."
+      ]
+    }
+  ]
+}
