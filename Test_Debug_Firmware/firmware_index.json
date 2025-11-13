@@ -1,0 +1,72 @@
+{
+  "target_version": "v0.0.4",
+  "firmwares": [
+    {
+      "version": "v0.0.1",
+      "filename": "firmware_v0.0.1.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Test_Debug_Firmware/firmware_v0.0.1.bin",
+      "md5": "b4f48d0ed3b79779a4cff72f7997825f",
+      "build_time": "2025-11-13 15:05:37",
+      "changelog": [
+        "## Added",
+        "- Base version with initial version number.",
+        "- Device MAC address & ID display.",
+        "- OTA update via trigger switches.",
+        "- SPIFFS formatting via trigger switches.",
+        "- LED driver for indicator functions.",
+        "- Changelog feature for firmware update references & scripting.",
+        "- OTA progress reporting to ThingsBoard widget for monitoring.",
+        "## Changed",
+        "- OTA chunk size set to 64 bytes.",
+        "## Removed",
+        "- Serial debugging output disabled for production build."
+      ]
+    },
+    {
+      "version": "v0.0.2",
+      "filename": "firmware_v0.0.2.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Test_Debug_Firmware/firmware_v0.0.2.bin",
+      "md5": "ff6927585528474ab913709def403458",
+      "build_time": "2025-11-13 15:06:53",
+      "changelog": [
+        "## Added",
+        "- Lookup table array for structured data access.",
+        "## Changed",
+        "- \"DEBUG_PRINTF\" macro now will have \"static char msg[64]\" for centralised debug buffer.",
+        "- Standardised debug output handling, removed local buffer in all functions.",
+        "## Removed",
+        "- Redundant function prototypes from \"main.c\"."
+      ]
+    },
+    {
+      "version": "v0.0.3",
+      "filename": "firmware_v0.0.3.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Test_Debug_Firmware/firmware_v0.0.3.bin",
+      "md5": "8ad09c5f41b56efd24f26a8f070fdfe0",
+      "build_time": "2025-11-13 15:10:32",
+      "changelog": [
+        "## Added",
+        "- Add New Submersible RD RWG01 Pneumatic Water Gauge Sensor.",
+        "- Edit table array lookups for newly add sensor.",
+        "- Add a new modbus function and timesequencing for the sensor.",
+        "- Add a new ota file url for showcase demonstration.",
+        "- Add parity guard code for modbus devices/sensors configuration exchanges instead of calling busSerial.begin",
+        "each time.",
+        "- Modbus functions now will have specific name for specific functions.",
+        "- Seperate function for modbus and compile data.",
+        "- Clean and adding new code for modbus file.",
+        "- New multitasking code, replacing timeseq function."
+      ]
+    },
+    {
+      "version": "v0.0.4",
+      "filename": "firmware_v0.0.4.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Test_Debug_Firmware/firmware_v0.0.4.bin",
+      "md5": "9787395b063c6ec76f68c280bf300286",
+      "build_time": "2025-11-13 15:12:16",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    }
+  ]
+}
