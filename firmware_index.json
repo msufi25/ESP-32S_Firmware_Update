@@ -4,9 +4,9 @@
     {
       "version": "v0.0.1",
       "filename": "firmware_v0.0.1.bin",
-      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.1.bin",
-      "md5": "a3ac5ef3eae39994aceecad17925a1cc",
-      "build_time": "2026-02-26 21:15:13",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/RainGauge/firmware_v0.0.1.bin",
+      "md5": "ca9b8c91ba0b94aca85748a870e820b5",
+      "build_time": "2026-03-10 13:40:35",
       "changelog": [
         "## Added",
         "- Base version with initial version number.",
@@ -25,9 +25,9 @@
     {
       "version": "v0.0.2",
       "filename": "firmware_v0.0.2.bin",
-      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.2.bin",
-      "md5": "5bb5ee64bc27c30325fc009c07365134",
-      "build_time": "2026-02-26 21:16:39",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/RainGauge/firmware_v0.0.2.bin",
+      "md5": "5b4582876df186bf8be1a2a5635cc818",
+      "build_time": "2026-03-10 13:43:50",
       "changelog": [
         "## Added",
         "- Lookup table array for structured data access.",
