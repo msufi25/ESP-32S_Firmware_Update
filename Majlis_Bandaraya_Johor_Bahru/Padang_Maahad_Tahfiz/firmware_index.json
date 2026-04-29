@@ -1,0 +1,42 @@
+{
+  "target_version": "v0.0.2",
+  "firmwares": [
+    {
+      "version": "v0.0.1",
+      "filename": "firmware_v0.0.1.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.1.bin",
+      "md5": "0ea95aa908a7ddec76265573f4aba9b5",
+      "build_time": "2026-04-29 12:28:04",
+      "changelog": [
+        "## Added",
+        "- Base version with initial version number.",
+        "- Device MAC address & ID display.",
+        "- OTA update via trigger switches.",
+        "- SPIFFS formatting via trigger switches.",
+        "- LED driver for indicator functions.",
+        "- Changelog feature for firmware update references & scripting.",
+        "- OTA progress reporting to ThingsBoard widget for monitoring.",
+        "## Changed",
+        "- OTA chunk size set to 64 bytes.",
+        "## Removed",
+        "- Serial debugging output disabled for production build."
+      ]
+    },
+    {
+      "version": "v0.0.2",
+      "filename": "firmware_v0.0.2.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.2.bin",
+      "md5": "6e0b7801901b2ea0dfe8875eb507fe87",
+      "build_time": "2026-04-29 12:30:55",
+      "changelog": [
+        "## Added",
+        "- Lookup table array for structured data access.",
+        "## Changed",
+        "- \"DEBUG_PRINTF\" macro now will have \"static char msg[64]\" for centralised debug buffer.",
+        "- Standardised debug output handling, removed local buffer in all functions.",
+        "## Removed",
+        "- Redundant function prototypes from \"main.c\"."
+      ]
+    }
+  ]
+}
