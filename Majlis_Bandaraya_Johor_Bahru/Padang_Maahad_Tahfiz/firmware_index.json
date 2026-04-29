@@ -1,0 +1,1353 @@
+{
+  "target_version": "v0.0.132",
+  "firmwares": [
+    {
+      "version": "v0.0.1",
+      "filename": "firmware_v0.0.1.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.1.bin",
+      "md5": "9906ff3a5270a10c962da4f0ffddf733",
+      "build_time": "2026-03-11 10:55:43",
+      "changelog": [
+        "## Added",
+        "- Base version with initial version number.",
+        "- Device MAC address & ID display.",
+        "- OTA update via trigger switches.",
+        "- SPIFFS formatting via trigger switches.",
+        "- LED driver for indicator functions.",
+        "- Changelog feature for firmware update references & scripting.",
+        "- OTA progress reporting to ThingsBoard widget for monitoring.",
+        "## Changed",
+        "- OTA chunk size set to 64 bytes.",
+        "## Removed",
+        "- Serial debugging output disabled for production build."
+      ]
+    },
+    {
+      "version": "v0.0.2",
+      "filename": "firmware_v0.0.2.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.2.bin",
+      "md5": "754d95d86c117afe134c5a56f5bccde2",
+      "build_time": "2026-04-15 11:58:00",
+      "changelog": [
+        "## Added",
+        "- Lookup table array for structured data access.",
+        "## Changed",
+        "- \"DEBUG_PRINTF\" macro now will have \"static char msg[64]\" for centralised debug buffer.",
+        "- Standardised debug output handling, removed local buffer in all functions.",
+        "## Removed",
+        "- Redundant function prototypes from \"main.c\"."
+      ]
+    },
+    {
+      "version": "v0.0.3",
+      "filename": "firmware_v0.0.3.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.3.bin",
+      "md5": "5a49cbd8b264f17af184d811ff99c61b",
+      "build_time": "2026-04-16 08:56:46",
+      "changelog": [
+        "## Added",
+        "- Add New Submersible RD RWG01 Pneumatic Water Gauge Sensor.",
+        "- Edit table array lookups for newly add sensor.",
+        "- Add a new modbus function and timesequencing for the sensor.",
+        "- Add a new ota file url for showcase demonstration.",
+        "- Add parity guard code for modbus devices/sensors configuration exchanges instead of calling busSerial.begin",
+        "each time.",
+        "- Modbus functions now will have specific name for specific functions.",
+        "- Seperate function for modbus and compile data.",
+        "- Clean and adding new code for modbus file.",
+        "- New multitasking code, replacing timeseq function."
+      ]
+    },
+    {
+      "version": "v0.0.4",
+      "filename": "firmware_v0.0.4.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.4.bin",
+      "md5": "d88b1f2f9b79b0386fe5064cd199b4f1",
+      "build_time": "2026-04-16 09:02:19",
+      "changelog": [
+        "## Added",
+        "- Add timer interval drop down section in wifimanager registration portal."
+      ]
+    },
+    {
+      "version": "v0.0.5",
+      "filename": "firmware_v0.0.5.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.5.bin",
+      "md5": "296f3ea90819ca15105cbf2a081a03a6",
+      "build_time": "2026-04-16 10:22:45",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.6",
+      "filename": "firmware_v0.0.6.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.6.bin",
+      "md5": "8b82377fa0fb1a8ba135695e56b91553",
+      "build_time": "2026-04-23 12:30:26",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.7",
+      "filename": "firmware_v0.0.7.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.7.bin",
+      "md5": "cf5e50fd1c232113fe06072750da23d8",
+      "build_time": "2026-04-23 12:36:34",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.8",
+      "filename": "firmware_v0.0.8.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.8.bin",
+      "md5": "1cf818ec6eeff48384021b9b77fef569",
+      "build_time": "2026-04-23 12:37:41",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.9",
+      "filename": "firmware_v0.0.9.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.9.bin",
+      "md5": "d371524ff0b2c0adeea48bf000ab5f9d",
+      "build_time": "2026-04-23 12:52:51",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.10",
+      "filename": "firmware_v0.0.10.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.10.bin",
+      "md5": "af7f58fb08db4ff213b6899095349994",
+      "build_time": "2026-04-23 13:03:04",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.11",
+      "filename": "firmware_v0.0.11.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.11.bin",
+      "md5": "bb74e91e9155ac6decb56d296048cebc",
+      "build_time": "2026-04-23 13:07:42",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.12",
+      "filename": "firmware_v0.0.12.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.12.bin",
+      "md5": "52105c215d8dc6356ca42541a4a24fc1",
+      "build_time": "2026-04-23 13:41:53",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.13",
+      "filename": "firmware_v0.0.13.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.13.bin",
+      "md5": "ee74425187c9e87f6f3016154a99e60b",
+      "build_time": "2026-04-23 13:43:19",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.14",
+      "filename": "firmware_v0.0.14.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.14.bin",
+      "md5": "e7b3f53c82748c8db601d1e2d1fb2803",
+      "build_time": "2026-04-23 13:51:23",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.15",
+      "filename": "firmware_v0.0.15.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.15.bin",
+      "md5": "c9d0781bcb0b2cb2366d53045a74eeef",
+      "build_time": "2026-04-23 14:05:36",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.16",
+      "filename": "firmware_v0.0.16.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.16.bin",
+      "md5": "5f9a23bd1dd4ebb187a75f0fff3b419e",
+      "build_time": "2026-04-23 14:06:35",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.17",
+      "filename": "firmware_v0.0.17.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.17.bin",
+      "md5": "a11129eeb0095b84f2afb9c3fe7a23ed",
+      "build_time": "2026-04-23 14:07:19",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.18",
+      "filename": "firmware_v0.0.18.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.18.bin",
+      "md5": "4adfdd2279b99f821bf995c168d9f35f",
+      "build_time": "2026-04-23 14:13:14",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.19",
+      "filename": "firmware_v0.0.19.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.19.bin",
+      "md5": "19d8b662535fcab9bc27899e873496f5",
+      "build_time": "2026-04-23 14:14:29",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.20",
+      "filename": "firmware_v0.0.20.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.20.bin",
+      "md5": "5faf38e203370072dd0d713491b28042",
+      "build_time": "2026-04-23 14:19:41",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.21",
+      "filename": "firmware_v0.0.21.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.21.bin",
+      "md5": "d49d10aa69f653a03b318cf91c8a5027",
+      "build_time": "2026-04-23 14:26:32",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.22",
+      "filename": "firmware_v0.0.22.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.22.bin",
+      "md5": "ae6b2601ff7f71515c0ea7c98c745bf2",
+      "build_time": "2026-04-23 14:28:27",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.23",
+      "filename": "firmware_v0.0.23.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.23.bin",
+      "md5": "a50729a3e548f8fa875a81ffb8238278",
+      "build_time": "2026-04-23 14:29:54",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.24",
+      "filename": "firmware_v0.0.24.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.24.bin",
+      "md5": "04bd3bb12c1d33d4936f9f4d25952d05",
+      "build_time": "2026-04-23 14:32:08",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.25",
+      "filename": "firmware_v0.0.25.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.25.bin",
+      "md5": "4141f4e0c140501c6bf8788ebfc6d433",
+      "build_time": "2026-04-23 15:14:37",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.26",
+      "filename": "firmware_v0.0.26.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.26.bin",
+      "md5": "4891883ad0e5275013e790dd25d9e700",
+      "build_time": "2026-04-23 15:25:20",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.27",
+      "filename": "firmware_v0.0.27.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.27.bin",
+      "md5": "99b5444b133af5c7786ff42427c202c3",
+      "build_time": "2026-04-23 15:27:11",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.28",
+      "filename": "firmware_v0.0.28.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.28.bin",
+      "md5": "4be5760ab55ca1c57ebaa89f54efc90e",
+      "build_time": "2026-04-23 15:34:44",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.29",
+      "filename": "firmware_v0.0.29.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.29.bin",
+      "md5": "3b5098f1bc9aa00559e490fcf860e85b",
+      "build_time": "2026-04-23 15:36:29",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.30",
+      "filename": "firmware_v0.0.30.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.30.bin",
+      "md5": "4be5760ab55ca1c57ebaa89f54efc90e",
+      "build_time": "2026-04-23 15:38:22",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.31",
+      "filename": "firmware_v0.0.31.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.31.bin",
+      "md5": "1397944d28ade69c3cdeb498e599a8b7",
+      "build_time": "2026-04-23 15:39:37",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.32",
+      "filename": "firmware_v0.0.32.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.32.bin",
+      "md5": "fb8cab6580d6f4b048e9313248896bcc",
+      "build_time": "2026-04-23 15:42:16",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.33",
+      "filename": "firmware_v0.0.33.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.33.bin",
+      "md5": "57d820693b5f40ab3214fc7c916a93f0",
+      "build_time": "2026-04-23 15:49:13",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.34",
+      "filename": "firmware_v0.0.34.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.34.bin",
+      "md5": "2d183ee43052e22acc27f102100dde9a",
+      "build_time": "2026-04-23 15:50:41",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.35",
+      "filename": "firmware_v0.0.35.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.35.bin",
+      "md5": "7c7a2e23c9fe69658caf36c95b102831",
+      "build_time": "2026-04-23 15:52:56",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.36",
+      "filename": "firmware_v0.0.36.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.36.bin",
+      "md5": "781e078c517bbb4c36d1c7e78d445b66",
+      "build_time": "2026-04-23 16:00:38",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.37",
+      "filename": "firmware_v0.0.37.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.37.bin",
+      "md5": "39bd4b838dbdc97f9bb09a7fe80b89af",
+      "build_time": "2026-04-23 16:10:02",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.38",
+      "filename": "firmware_v0.0.38.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.38.bin",
+      "md5": "f9b91430e3b41b231a91441e92e9b1e9",
+      "build_time": "2026-04-23 17:15:55",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.39",
+      "filename": "firmware_v0.0.39.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.39.bin",
+      "md5": "01fbdd81552467209580b8fcb25e379f",
+      "build_time": "2026-04-24 14:53:46",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.40",
+      "filename": "firmware_v0.0.40.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.40.bin",
+      "md5": "6c74da063a5a10db97c731e6f0b3dccb",
+      "build_time": "2026-04-24 15:14:08",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.41",
+      "filename": "firmware_v0.0.41.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.41.bin",
+      "md5": "4f9a673706b00d7e944cb17f92cc7aca",
+      "build_time": "2026-04-24 15:21:16",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.42",
+      "filename": "firmware_v0.0.42.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.42.bin",
+      "md5": "2a9ace8b0002e312543d1a27e4fcc00b",
+      "build_time": "2026-04-24 15:42:14",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.43",
+      "filename": "firmware_v0.0.43.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.43.bin",
+      "md5": "844850a6556a0ab0109b325f6d6a8694",
+      "build_time": "2026-04-24 15:43:19",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.44",
+      "filename": "firmware_v0.0.44.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.44.bin",
+      "md5": "33e63e2508165533e30bea4cb6bf7cb3",
+      "build_time": "2026-04-24 15:56:21",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.45",
+      "filename": "firmware_v0.0.45.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.45.bin",
+      "md5": "51a44bc090ba8274b274ab709da9a995",
+      "build_time": "2026-04-24 15:59:30",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.46",
+      "filename": "firmware_v0.0.46.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.46.bin",
+      "md5": "4d549df94d3d770de65fff1790ebefce",
+      "build_time": "2026-04-24 16:08:04",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.47",
+      "filename": "firmware_v0.0.47.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.47.bin",
+      "md5": "701eb53dfd02502f74d20d100b433d4a",
+      "build_time": "2026-04-24 16:14:53",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.48",
+      "filename": "firmware_v0.0.48.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.48.bin",
+      "md5": "b52c1deda8ffd003ef2a2c3b92660e47",
+      "build_time": "2026-04-24 16:18:24",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.49",
+      "filename": "firmware_v0.0.49.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.49.bin",
+      "md5": "e80689851da9936d5df19f6a6921ccdc",
+      "build_time": "2026-04-24 16:24:41",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.50",
+      "filename": "firmware_v0.0.50.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.50.bin",
+      "md5": "177df3b217f7c9167da4b5e352d2e2ba",
+      "build_time": "2026-04-24 16:30:20",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.51",
+      "filename": "firmware_v0.0.51.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.51.bin",
+      "md5": "2d5ae2833110380d179dc7078e61b890",
+      "build_time": "2026-04-24 16:34:47",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.52",
+      "filename": "firmware_v0.0.52.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.52.bin",
+      "md5": "cf5e5f1caa0eca9f2069dd54be3878ad",
+      "build_time": "2026-04-24 17:05:04",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.53",
+      "filename": "firmware_v0.0.53.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.53.bin",
+      "md5": "f3eb56cba64014711e80ab6629d92b36",
+      "build_time": "2026-04-24 17:06:16",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.54",
+      "filename": "firmware_v0.0.54.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.54.bin",
+      "md5": "0688b9dfd0b3e4760027c190831970d0",
+      "build_time": "2026-04-24 17:17:15",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.55",
+      "filename": "firmware_v0.0.55.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.55.bin",
+      "md5": "cf266e5d5a4020cbbab43d30ad503572",
+      "build_time": "2026-04-24 17:25:28",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.56",
+      "filename": "firmware_v0.0.56.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.56.bin",
+      "md5": "70a97c91f691a16b576da522d4288bc7",
+      "build_time": "2026-04-24 17:35:43",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.57",
+      "filename": "firmware_v0.0.57.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.57.bin",
+      "md5": "bfd38154af7cade658cc162405dc6949",
+      "build_time": "2026-04-24 17:41:34",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.58",
+      "filename": "firmware_v0.0.58.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.58.bin",
+      "md5": "264568954abda5139d6f9f06ad5bfd49",
+      "build_time": "2026-04-24 17:42:24",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.59",
+      "filename": "firmware_v0.0.59.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.59.bin",
+      "md5": "2f534b1cfb884ae5aabf3fda3be1bb08",
+      "build_time": "2026-04-24 17:46:08",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.60",
+      "filename": "firmware_v0.0.60.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.60.bin",
+      "md5": "57a0511857030de1eee0bc333634299a",
+      "build_time": "2026-04-24 18:07:06",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.61",
+      "filename": "firmware_v0.0.61.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.61.bin",
+      "md5": "f5e10ef8497124bddd5470b2fd411e8b",
+      "build_time": "2026-04-24 18:07:44",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.62",
+      "filename": "firmware_v0.0.62.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.62.bin",
+      "md5": "135d2ce0bc396779fe80aa090cd41335",
+      "build_time": "2026-04-24 18:11:12",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.63",
+      "filename": "firmware_v0.0.63.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.63.bin",
+      "md5": "0673d69e56f542ff721b1f529877f059",
+      "build_time": "2026-04-24 18:12:55",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.64",
+      "filename": "firmware_v0.0.64.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.64.bin",
+      "md5": "86ad216665cb1a404b41dc83de1c6722",
+      "build_time": "2026-04-24 18:33:32",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.65",
+      "filename": "firmware_v0.0.65.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.65.bin",
+      "md5": "6df768f50b93f015482c4c59b56ae258",
+      "build_time": "2026-04-24 18:38:31",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.66",
+      "filename": "firmware_v0.0.66.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.66.bin",
+      "md5": "561788c5d647b4919f6b7da969069e62",
+      "build_time": "2026-04-24 18:51:53",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.67",
+      "filename": "firmware_v0.0.67.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.67.bin",
+      "md5": "2d658f862696794e77829bc309a06d26",
+      "build_time": "2026-04-24 18:58:35",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.68",
+      "filename": "firmware_v0.0.68.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.68.bin",
+      "md5": "1723c84adc0aeec8dc6c12f6c0d4baff",
+      "build_time": "2026-04-24 19:03:26",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.69",
+      "filename": "firmware_v0.0.69.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.69.bin",
+      "md5": "d6651e6900f492803fe65d1adaf718ae",
+      "build_time": "2026-04-24 19:07:18",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.70",
+      "filename": "firmware_v0.0.70.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.70.bin",
+      "md5": "674ec7724a58bc39547d97c2c426a1ed",
+      "build_time": "2026-04-24 19:09:04",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.71",
+      "filename": "firmware_v0.0.71.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.71.bin",
+      "md5": "45d999f0e38b0c2ad6c0b77a25f4fe8a",
+      "build_time": "2026-04-24 19:10:58",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.72",
+      "filename": "firmware_v0.0.72.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.72.bin",
+      "md5": "8b943ccf2e5648caa339b3dc3d93778c",
+      "build_time": "2026-04-24 19:15:30",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.73",
+      "filename": "firmware_v0.0.73.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.73.bin",
+      "md5": "eb6e1aad44138e5bee64f87270401f27",
+      "build_time": "2026-04-24 19:20:43",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.74",
+      "filename": "firmware_v0.0.74.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.74.bin",
+      "md5": "927d6744000969e35a0af8af29fe4f73",
+      "build_time": "2026-04-24 19:24:00",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.75",
+      "filename": "firmware_v0.0.75.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.75.bin",
+      "md5": "a4e669504f2ccfbffadaf2bb97839bcc",
+      "build_time": "2026-04-24 19:28:59",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.76",
+      "filename": "firmware_v0.0.76.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.76.bin",
+      "md5": "e49310a5a369dd7c18eab23512e9f9d0",
+      "build_time": "2026-04-24 19:34:54",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.77",
+      "filename": "firmware_v0.0.77.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.77.bin",
+      "md5": "db5fad541abe72d37fb1f85145688e63",
+      "build_time": "2026-04-24 19:48:01",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.78",
+      "filename": "firmware_v0.0.78.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.78.bin",
+      "md5": "ce2b337810740d2249b6aa236dd7c3b2",
+      "build_time": "2026-04-24 19:57:06",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.79",
+      "filename": "firmware_v0.0.79.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.79.bin",
+      "md5": "99c36687b9efda38866419de81a07551",
+      "build_time": "2026-04-24 20:01:39",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.80",
+      "filename": "firmware_v0.0.80.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.80.bin",
+      "md5": "d2904623292668d05367e24bdae5ccff",
+      "build_time": "2026-04-28 14:38:26",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.81",
+      "filename": "firmware_v0.0.81.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.81.bin",
+      "md5": "aa77452abb259eb3b095afb8945d4b5b",
+      "build_time": "2026-04-28 15:27:52",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.82",
+      "filename": "firmware_v0.0.82.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.82.bin",
+      "md5": "df6f607988467ccfa2c45433b7f49d2e",
+      "build_time": "2026-04-28 15:33:28",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.83",
+      "filename": "firmware_v0.0.83.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.83.bin",
+      "md5": "2b57be3f6eb39fed92bba568738c15ca",
+      "build_time": "2026-04-28 15:36:27",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.84",
+      "filename": "firmware_v0.0.84.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.84.bin",
+      "md5": "c7c264dda3584f92b81f0b37bd240abe",
+      "build_time": "2026-04-28 15:38:42",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.85",
+      "filename": "firmware_v0.0.85.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.85.bin",
+      "md5": "7cbd620fb002cced376e8ace63a0940c",
+      "build_time": "2026-04-28 15:51:53",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.86",
+      "filename": "firmware_v0.0.86.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.86.bin",
+      "md5": "1d70f9ac2c999f5b75c9ed565561839d",
+      "build_time": "2026-04-28 15:54:10",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.87",
+      "filename": "firmware_v0.0.87.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.87.bin",
+      "md5": "441745b5e97aabed02752d1daf33582f",
+      "build_time": "2026-04-28 16:42:54",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.88",
+      "filename": "firmware_v0.0.88.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.88.bin",
+      "md5": "52530b095149fc63493f030335fc44f7",
+      "build_time": "2026-04-28 16:50:47",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.89",
+      "filename": "firmware_v0.0.89.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.89.bin",
+      "md5": "b5be8f206f07df07cd055264441eb659",
+      "build_time": "2026-04-28 16:53:36",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.90",
+      "filename": "firmware_v0.0.90.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.90.bin",
+      "md5": "673f73337b3ff178afa29744bd22694e",
+      "build_time": "2026-04-28 16:55:14",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.91",
+      "filename": "firmware_v0.0.91.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.91.bin",
+      "md5": "b864624d91450e52225463132d41df73",
+      "build_time": "2026-04-28 16:57:04",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.92",
+      "filename": "firmware_v0.0.92.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.92.bin",
+      "md5": "000a74f206796dcf4c6d149c9aa9abc0",
+      "build_time": "2026-04-28 17:02:51",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.93",
+      "filename": "firmware_v0.0.93.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.93.bin",
+      "md5": "bde5c065accd566cc14fdc371ee4b362",
+      "build_time": "2026-04-28 17:11:48",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.94",
+      "filename": "firmware_v0.0.94.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.94.bin",
+      "md5": "7238c2ba51891fc7b0b3eab833c3747f",
+      "build_time": "2026-04-28 17:27:52",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.95",
+      "filename": "firmware_v0.0.95.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.95.bin",
+      "md5": "aee9c4052f3153957346253f7f8648b6",
+      "build_time": "2026-04-28 17:34:21",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.96",
+      "filename": "firmware_v0.0.96.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.96.bin",
+      "md5": "44402627cbd61588271e092ca7e7a27b",
+      "build_time": "2026-04-28 17:37:03",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.97",
+      "filename": "firmware_v0.0.97.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.97.bin",
+      "md5": "1effc414c4ed9c9450c377c278335412",
+      "build_time": "2026-04-28 17:39:30",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.98",
+      "filename": "firmware_v0.0.98.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.98.bin",
+      "md5": "8391833d2fb17b9d00d703f2b530e930",
+      "build_time": "2026-04-28 17:49:15",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.99",
+      "filename": "firmware_v0.0.99.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.99.bin",
+      "md5": "af670e1f1abbf0524a677e1ba8df48cd",
+      "build_time": "2026-04-28 17:52:21",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.100",
+      "filename": "firmware_v0.0.100.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.100.bin",
+      "md5": "f6b8dc65a3655bb01f4c3cb41ecf01f6",
+      "build_time": "2026-04-28 18:01:25",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.101",
+      "filename": "firmware_v0.0.101.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.101.bin",
+      "md5": "95a6720504414c72b5424c8a1ea18520",
+      "build_time": "2026-04-28 18:03:54",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.102",
+      "filename": "firmware_v0.0.102.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.102.bin",
+      "md5": "25174c07e3320405964add54beb5b3b1",
+      "build_time": "2026-04-28 19:43:30",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.103",
+      "filename": "firmware_v0.0.103.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.103.bin",
+      "md5": "25b938871a83a51c0abbc680153f75a0",
+      "build_time": "2026-04-28 20:22:01",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.104",
+      "filename": "firmware_v0.0.104.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.104.bin",
+      "md5": "fedf3a5feeaf490a143fba928abd872d",
+      "build_time": "2026-04-28 20:29:43",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.105",
+      "filename": "firmware_v0.0.105.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.105.bin",
+      "md5": "d5e70bf867f0563edded3a224542659a",
+      "build_time": "2026-04-28 20:33:18",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.106",
+      "filename": "firmware_v0.0.106.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.106.bin",
+      "md5": "1a130a5038a126afef3801bf129fef3f",
+      "build_time": "2026-04-28 21:05:18",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.107",
+      "filename": "firmware_v0.0.107.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.107.bin",
+      "md5": "38c973a1a280be91372abc59dceb25df",
+      "build_time": "2026-04-28 21:09:47",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.108",
+      "filename": "firmware_v0.0.108.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.108.bin",
+      "md5": "62bb3d05fade4b138b7605667eeff381",
+      "build_time": "2026-04-29 08:04:37",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.109",
+      "filename": "firmware_v0.0.109.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.109.bin",
+      "md5": "cdd32e0a1bf00426055f1d578302cb59",
+      "build_time": "2026-04-29 08:12:58",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.110",
+      "filename": "firmware_v0.0.110.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.110.bin",
+      "md5": "fdf2f7bf097b1064fc7b33e8aa4ed429",
+      "build_time": "2026-04-29 08:14:24",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.111",
+      "filename": "firmware_v0.0.111.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.111.bin",
+      "md5": "b93131178e02a74871a59c45c8cea84e",
+      "build_time": "2026-04-29 08:17:47",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.112",
+      "filename": "firmware_v0.0.112.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.112.bin",
+      "md5": "974eee02382523608eab30089bd1b2a4",
+      "build_time": "2026-04-29 08:29:37",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.113",
+      "filename": "firmware_v0.0.113.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.113.bin",
+      "md5": "53a49d9dc75f19520c493451424410b9",
+      "build_time": "2026-04-29 08:31:05",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.114",
+      "filename": "firmware_v0.0.114.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.114.bin",
+      "md5": "6f02bd237123ca8adf52ed1359b55f73",
+      "build_time": "2026-04-29 08:41:08",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.115",
+      "filename": "firmware_v0.0.115.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.115.bin",
+      "md5": "e2133371ed27cfcc08a8c5fc19c7570b",
+      "build_time": "2026-04-29 08:42:16",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.116",
+      "filename": "firmware_v0.0.116.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.116.bin",
+      "md5": "c710eacd5e33fc6bef18e1850c39f92b",
+      "build_time": "2026-04-29 08:49:21",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.117",
+      "filename": "firmware_v0.0.117.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.117.bin",
+      "md5": "51932ecef0276d3e8cd0484481e5ef25",
+      "build_time": "2026-04-29 08:54:15",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.118",
+      "filename": "firmware_v0.0.118.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.118.bin",
+      "md5": "6641f886763deeb701192c51fc022a26",
+      "build_time": "2026-04-29 09:01:22",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.119",
+      "filename": "firmware_v0.0.119.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.119.bin",
+      "md5": "27c62526fd0adb227aa8aa1925b605de",
+      "build_time": "2026-04-29 09:03:33",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.120",
+      "filename": "firmware_v0.0.120.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.120.bin",
+      "md5": "abcf7412ab5fa6a6c1efc342b609430d",
+      "build_time": "2026-04-29 09:08:39",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.121",
+      "filename": "firmware_v0.0.121.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.121.bin",
+      "md5": "2a9d5771baa34970e35b353f2abba2ea",
+      "build_time": "2026-04-29 09:12:29",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.122",
+      "filename": "firmware_v0.0.122.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.122.bin",
+      "md5": "d1f1b01e06beb0fff679295479113b58",
+      "build_time": "2026-04-29 09:27:22",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.123",
+      "filename": "firmware_v0.0.123.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.123.bin",
+      "md5": "bb64c599aed3a570b38e16cb98dbfde5",
+      "build_time": "2026-04-29 09:29:39",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.124",
+      "filename": "firmware_v0.0.124.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.124.bin",
+      "md5": "21e2419264767daa0df630fded515a1e",
+      "build_time": "2026-04-29 10:20:04",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.125",
+      "filename": "firmware_v0.0.125.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.125.bin",
+      "md5": "d097d4d2f4766c2cf97d45b300e40c78",
+      "build_time": "2026-04-29 10:21:12",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.126",
+      "filename": "firmware_v0.0.126.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.126.bin",
+      "md5": "d1ed056bce6391f57bf297a50901cb5c",
+      "build_time": "2026-04-29 10:31:17",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.127",
+      "filename": "firmware_v0.0.127.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.127.bin",
+      "md5": "eebdfeb2b4dd003909422758621fdff9",
+      "build_time": "2026-04-29 10:32:34",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.128",
+      "filename": "firmware_v0.0.128.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.128.bin",
+      "md5": "30e40c9ef4ea715964a9e696b3f01c8e",
+      "build_time": "2026-04-29 10:33:55",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.129",
+      "filename": "firmware_v0.0.129.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.129.bin",
+      "md5": "d139e63aebfc39fc154d48ff327c61e2",
+      "build_time": "2026-04-29 10:42:43",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.130",
+      "filename": "firmware_v0.0.130.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.130.bin",
+      "md5": "7785fa935c4280a7b1a078ad34039bee",
+      "build_time": "2026-04-29 10:45:21",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.131",
+      "filename": "firmware_v0.0.131.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.131.bin",
+      "md5": "7ba97fda11d725101eea536fa1ead3da",
+      "build_time": "2026-04-29 10:52:32",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    },
+    {
+      "version": "v0.0.132",
+      "filename": "firmware_v0.0.132.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Padang_Maahad_Tahfiz/firmware_v0.0.132.bin",
+      "md5": "b38f4a77e6006f84d96a6b796d60e1d2",
+      "build_time": "2026-04-29 10:53:51",
+      "changelog": [
+        "- No changelog entry."
+      ]
+    }
+  ]
+}
