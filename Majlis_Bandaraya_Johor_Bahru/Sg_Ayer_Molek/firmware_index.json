@@ -5,8 +5,8 @@
       "version": "v0.0.1",
       "filename": "firmware_v0.0.1.bin",
       "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Ayer_Molek/firmware_v0.0.1.bin",
-      "md5": "1c20e827b74b1261bcc6e29d3a2e97f7",
-      "build_time": "2026-05-05 12:10:34",
+      "md5": "60f3f9721eba89937df478c306f61930",
+      "build_time": "2026-05-05 17:09:01",
       "changelog": [
         "## Added",
         "- Base version with initial version number.",
@@ -26,8 +26,8 @@
       "version": "v0.0.2",
       "filename": "firmware_v0.0.2.bin",
       "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Ayer_Molek/firmware_v0.0.2.bin",
-      "md5": "1ff20b9ad47a041e43ac81c98dc71133",
-      "build_time": "2026-05-05 12:12:19",
+      "md5": "4039a6964379648340225b020ca7c6ff",
+      "build_time": "2026-05-05 17:11:00",
       "changelog": [
         "## Added",
         "- Lookup table array for structured data access.",
