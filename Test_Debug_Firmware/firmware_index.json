@@ -5,8 +5,8 @@
       "version": "v0.0.1",
       "filename": "firmware_v0.0.1.bin",
       "url": "/msufi25/ESP-32S_Firmware_Update/main/Test_Debug_Firmware/firmware_v0.0.1.bin",
-      "md5": "52d35f6ac639257ae5ce3f8b1a163c67",
-      "build_time": "2026-05-25 19:06:05",
+      "md5": "7a4b2b318f8017d512c4f08ace5a9b5a",
+      "build_time": "2026-05-25 20:21:02",
       "changelog": [
         "## Added",
         "- Base version with initial version number.",
@@ -26,8 +26,8 @@
       "version": "v0.0.2",
       "filename": "firmware_v0.0.2.bin",
       "url": "/msufi25/ESP-32S_Firmware_Update/main/Test_Debug_Firmware/firmware_v0.0.2.bin",
-      "md5": "5d3377c0fbe2fb0e120d683f4c57d1ab",
-      "build_time": "2026-05-25 19:08:38",
+      "md5": "10dc39b012133e6f5df7285e025459a4",
+      "build_time": "2026-05-25 20:23:35",
       "changelog": [
         "## Added",
         "- Lookup table array for structured data access.",
