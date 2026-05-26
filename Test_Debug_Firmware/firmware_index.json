@@ -1,5 +1,5 @@
 {
-  "target_version": "v0.0.2",
+  "target_version": "v0.0.5",
   "firmwares": [
     {
       "version": "v0.0.1",
@@ -36,6 +36,49 @@
         "- Standardised debug output handling, removed local buffer in all functions.",
         "## Removed",
         "- Redundant function prototypes from \"main.c\"."
+      ]
+    },
+    {
+      "version": "v0.0.3",
+      "filename": "firmware_v0.0.3.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Test_Debug_Firmware/firmware_v0.0.3.bin",
+      "md5": "61d137bcf1ad841ca864bd6bb5f223ed",
+      "build_time": "2026-05-26 13:21:51",
+      "changelog": [
+        "## Added",
+        "- Add New Submersible RD RWG01 Pneumatic Water Gauge Sensor.",
+        "- Edit table array lookups for newly add sensor.",
+        "- Add a new modbus function and timesequencing for the sensor.",
+        "- Add a new ota file url for showcase demonstration.",
+        "- Add parity guard code for modbus devices/sensors configuration exchanges instead of calling busSerial.begin",
+        "each time.",
+        "- Modbus functions now will have specific name for specific functions.",
+        "- Seperate function for modbus and compile data.",
+        "- Clean and adding new code for modbus file.",
+        "- New multitasking code, replacing timeseq function."
+      ]
+    },
+    {
+      "version": "v0.0.4",
+      "filename": "firmware_v0.0.4.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Test_Debug_Firmware/firmware_v0.0.4.bin",
+      "md5": "27bb18277b3aa2f8eec70499c53756ec",
+      "build_time": "2026-05-26 13:32:58",
+      "changelog": [
+        "## Added",
+        "- Add timer interval drop down section in wifimanager registration portal.",
+        "- Add customisable wifimanager registration page.",
+        "- All debug messages will refer table array form."
+      ]
+    },
+    {
+      "version": "v0.0.5",
+      "filename": "firmware_v0.0.5.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Test_Debug_Firmware/firmware_v0.0.5.bin",
+      "md5": "eefe455916c62c2970f8a1ed2ed0ac25",
+      "build_time": "2026-05-26 13:34:53",
+      "changelog": [
+        "- No changelog entry."
       ]
     }
   ]
