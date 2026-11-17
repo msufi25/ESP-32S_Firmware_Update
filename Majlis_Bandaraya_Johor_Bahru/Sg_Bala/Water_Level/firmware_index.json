@@ -1,5 +1,5 @@
 {
-  "target_version": "v0.0.1",
+  "target_version": "v0.0.2",
   "firmwares": [
     {
       "version": "v0.0.1",
@@ -20,6 +20,22 @@
         "- OTA chunk size set to 64 bytes.",
         "## Removed",
         "- Serial debugging output disabled for production build."
+      ]
+    },
+    {
+      "version": "v0.0.2",
+      "filename": "firmware_v0.0.2.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Sg_Bala/Water_Level/firmware_v0.0.2.bin",
+      "md5": "4e000ff5cde2db23b4a7094bbeaf06dd",
+      "build_time": "2026-11-17 13:58:50",
+      "changelog": [
+        "## Added",
+        "- Lookup table array for structured data access.",
+        "## Changed",
+        "- \"DEBUG_PRINTF\" macro now will have \"static char msg[64]\" for centralised debug buffer.",
+        "- Standardised debug output handling, removed local buffer in all functions.",
+        "## Removed",
+        "- Redundant function prototypes from \"main.c\"."
       ]
     }
   ]
