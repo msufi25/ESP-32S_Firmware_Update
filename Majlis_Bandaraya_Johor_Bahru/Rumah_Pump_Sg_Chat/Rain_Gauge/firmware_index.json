@@ -1,12 +1,12 @@
 {
-  "target_version": "v0.0.1",
+  "target_version": "v0.0.2",
   "firmwares": [
     {
       "version": "v0.0.1",
       "filename": "firmware_v0.0.1.bin",
       "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Rumah_Pump_Sg_Chat/Rain_Gauge/firmware_v0.0.1.bin",
-      "md5": "c15c67efcb649aba11f02489356e60c0",
-      "build_time": "2026-05-20 16:48:04",
+      "md5": "8bf07d093c933b9ef7dfaa0e40716ca6",
+      "build_time": "2026-11-19 17:31:23",
       "changelog": [
         "## Added",
         "- Base version with initial version number.",
@@ -20,6 +20,22 @@
         "- OTA chunk size set to 64 bytes.",
         "## Removed",
         "- Serial debugging output disabled for production build."
+      ]
+    },
+    {
+      "version": "v0.0.2",
+      "filename": "firmware_v0.0.2.bin",
+      "url": "/msufi25/ESP-32S_Firmware_Update/main/Majlis_Bandaraya_Johor_Bahru/Rumah_Pump_Sg_Chat/Rain_Gauge/firmware_v0.0.2.bin",
+      "md5": "b39c4a64a4dc7ade7f5eb01aa24da82f",
+      "build_time": "2026-11-19 17:34:19",
+      "changelog": [
+        "## Added",
+        "- Lookup table array for structured data access.",
+        "## Changed",
+        "- \"DEBUG_PRINTF\" macro now will have \"static char msg[64]\" for centralised debug buffer.",
+        "- Standardised debug output handling, removed local buffer in all functions.",
+        "## Removed",
+        "- Redundant function prototypes from \"main.c\"."
       ]
     }
   ]
